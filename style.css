@@ -1290,6 +1290,14 @@ body{
   left: 0;
 }
 
+.hero{
+  height: 500px;
+}
+
+.hero-content{
+  padding: 200px 0;
+}
+
 /* Overlay */
 .overlay {
   position: fixed;
