@@ -1974,6 +1974,11 @@ body{
   .values-closing p {
     max-width: 450px;
     font-size: 14px;
+    width: 90%;
+  }
+
+  .contact-footer{
+    margin: 0;
   }
 
   .values-closing h2 {
@@ -1984,19 +1989,25 @@ body{
 @media (max-width: 500px){
 
   .values-hero{
-    margin: 120px 0 0;
+    margin: 105px 0 0;
+    border-radius: 0;
   }
 }
 
 @media (max-width: 450px){
 
   .values-hero p {
-        width: 80%;
-        margin: 0 auto;
-    }
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+  }
+
+  .values-hero h1{
+    margin-bottom: 25px;
+  }
 
   .values-section {
-        padding: 50px 10px;
+        padding: 50px 10px 0;
     }  
 
   .values-section h2{
@@ -2004,8 +2015,8 @@ body{
   }  
 
   .values-closing {
-        padding: 40px 0 50px;
-    }
+    padding: 70px 0;
+  }
 }
 
 @media (max-width: 377px){
