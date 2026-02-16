@@ -1456,8 +1456,14 @@ body{
     width: 80px;
     height: 80px;
   }
+
+
   .hero h1{
     font-size: 1.6rem;
+  }
+
+  .promise-section{
+    min-height: 0;
   }
 
   .promise-text{
@@ -1488,7 +1494,7 @@ body{
 @media (max-width: 405px){
 
   .hero{
-    height: 60vh;
+    height: 600px;
   }
 
   .hero h1 {
