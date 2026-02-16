@@ -1841,7 +1841,8 @@ body{
 
   .recognition-section{
     border-radius: 0;  
-    padding: 40px 10px;
+    padding: 60px 10px;
+    min-height: 0;
   }
 
   .global-leap-section{
@@ -1908,10 +1909,6 @@ body{
 
   .global-leap-container{
     padding: 0 5px;
-  }
-
-  .legacy-section{
-    padding: 0 0 60px;
   }
 }
 
