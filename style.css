@@ -1481,6 +1481,10 @@ body{
 
 @media (max-width: 450px){
 
+  .hero{
+    margin: 105px 0 0;
+  }
+
   .promise-section {
   padding: 85px 0 65px;
   min-height: 0;
