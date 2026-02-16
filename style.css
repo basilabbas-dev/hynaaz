@@ -1063,7 +1063,7 @@ span.small-title{
     text-decoration: underline;
 }
 
-.whatsapp {
+.whatsapp-no {
     font-weight: 500;
 }
 
@@ -2144,8 +2144,17 @@ body{
     padding: 20px;
   }
 
+  .location-grid{
+    padding: 0 10px;
+  }
+
   .contact-box{
-    padding: 30px 20px;
+    padding: 30px 10px;
+    margin: 70px 10px;
+  }
+
+  .contact-info{
+    gap: 20px;
   }
 }
 
