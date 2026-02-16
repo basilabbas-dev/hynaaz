@@ -1767,23 +1767,6 @@ body{
   }
 }
 
-@media (max-width: 450px){
-
-  .global-content{
-    width: 100%;
-  }
-
-  .map-card{
-    width: 100%;
-  }
-
-  .global-content p{
-    font-size: 15px;
-    line-height: 1.2;
-  }
-
-}
-
 @media (max-width: 463px){
 
   .global-journey .content {
@@ -1813,6 +1796,91 @@ body{
   .global-leap-container{
     padding: 10px 0;
   }
+}
+
+@media (max-width: 450px){
+
+  .global-content{
+    width: 100%;
+  }
+
+  .global-journey{
+    margin: 105px 0 0;
+    border-radius: 0;
+    align-items: center;
+  }
+
+  .global-journey .content{
+    padding: 0;
+  }
+
+  .roots-section{
+    padding: 100px 0px 0;
+  }
+
+  .roots-content{
+    padding: 0 10px;
+  }
+
+  .roots-image img{
+    border-radius: 0;
+  }
+
+  .founder-card{
+    padding: 0 0 10px;
+    border-radius: 0;
+  }
+
+  .founder-image{
+    border-radius: 0;
+  }
+
+  .founder-content{
+    padding: 30px 10px 0;
+  }
+
+  .recognition-section{
+    border-radius: 0;  
+    padding: 40px 10px;
+  }
+
+  .global-leap-section{
+    padding: 90px 0 0;
+  }
+
+  .global-leap-container{
+    border-radius: 0;
+    padding: 10px 0 0;
+  }
+
+  .global-content h2 , .global-content p{
+    padding: 0 10px;
+  }
+
+  .reach-card{
+    border-radius: 0;
+  }
+
+  .map-card{
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .legacy-section{
+    padding: 80px 0;
+  }
+
+  .legacy-box{
+    border-radius: 0;
+    padding: 50px 10px;
+  }
+
+  .global-content p{
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
 }
 
 @media (max-width: 400px){
