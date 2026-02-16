@@ -1482,7 +1482,7 @@ body{
 @media (max-width: 450px){
 
   .promise-section {
-  padding: 45px 0;
+  padding: 85px 0 65px;
   min-height: 0;
   }
 
@@ -1507,7 +1507,7 @@ body{
 @media (max-width: 405px){
 
   .hero{
-    height: 600px;
+    height: 400px;
   }
 
   .hero h1 {
