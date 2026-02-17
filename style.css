@@ -16,8 +16,10 @@ body{
 }
 
 .wrapper{
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 18px;
 }
 
 :root {
@@ -79,11 +81,13 @@ body{
 .hero-overlay {
   background: rgba(25, 47, 88, 65%);
   height: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 450px;
 }
 
 .hero-content {
   color: white;
-  padding-top: 120px;
 }
 
 .hero h1 {
@@ -139,6 +143,7 @@ body{
   max-width: 900px;
   background: #ffffff;
   padding: 80px 70px;
+  margin: 0 auto;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0 40px 80px rgba(0, 0, 0, 0.08);
@@ -1106,15 +1111,6 @@ span.small-title{
 
 /* index-page responsive */
 
-
-
-@media (max-width: 1200px){
-
-  .wrapper{
-    max-width: 1000px;
-  }
-}
-
 @media (max-width: 1125px){
 
   .footer-left h2 {
@@ -1147,17 +1143,9 @@ span.small-title{
 
 @media (max-width: 1000px){
 
-body{
-  padding: 0 10px;
-}
-
-.hero-content{
-  padding: 100px 0px  0px 10px;
-}
-
-.contact-footer {
-  padding: 60px 35px 30px;
-}
+  .contact-footer {
+    padding: 60px 35px 30px;
+  }
 
 }
 
@@ -1254,6 +1242,7 @@ body{
 .side-menu_logo{
   margin: 0 0 30px;
   display: block;
+  text-align: center;
 }
 
 .side-menu_logo img{
@@ -1292,10 +1281,6 @@ body{
 
 .hero{
   height: 500px;
-}
-
-.hero-content{
-  padding: 200px 0;
 }
 
 /* Overlay */
@@ -1416,10 +1401,6 @@ body{
       padding: 0 0 20px;
   }
 
-  .hero-content {
-    padding: 150px 10px;
-  }
-
   .hero p {
   font-size: 1rem;
   text-align: center;
@@ -1441,12 +1422,9 @@ body{
     font-size: 14px;
   }
 
-  .promise-section{
-    padding: 45px 0;
-  }
-
   .contact-footer{
     margin: 0;
+    border-radius: 0;
   }
 }
 
@@ -1486,16 +1464,8 @@ body{
   }
 
   .promise-section {
-  padding: 85px 0 65px;
+  padding: 35px 0;
   min-height: 0;
-  }
-
-  .promise-card{
-    border-radius: 0;
-  }
-
-  body{
-  padding: 0px;
   }
 
   .contact-footer{
@@ -1510,10 +1480,6 @@ body{
 
 @media (max-width: 405px){
 
-  .hero{
-    height: 400px;
-  }
-
   .hero h1 {
     font-size: 1.3rem;
   }
@@ -1522,10 +1488,6 @@ body{
     font-size: 0.9rem;
     margin: 5px 0;
    }
-
-  .hero-content{
-    padding: 70px 10px 0px 10px;
-  }
 
   .hero-buttons {
     margin-top: 30px;
@@ -1551,17 +1513,9 @@ body{
     font-size: 12px;
     line-height: 1.5;
   }
-
-  .promise-card {
-        padding: 25px 20px;
-    }
 }
 
 @media (max-width: 320px){
-
-  body{
-    padding: 0;
-  }
 
   .hero{
     height: auto;
@@ -1642,10 +1596,6 @@ body{
 
   .legacy-section{
     padding: 60px 0;
-  }
-
-  .contact-footer{
-    margin: 20px 0;
   }
 
   .global-leap-container {
@@ -2111,10 +2061,6 @@ body{
     width: 100%;
   }
 
-  body{
-    padding: 0;
-  }
-
   .values-hero{
     border-radius: 0;
   }
@@ -2234,5 +2180,3 @@ body{
     border-radius: 0;
   }
 }
-
-
